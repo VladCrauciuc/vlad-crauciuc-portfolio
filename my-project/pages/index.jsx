@@ -3,11 +3,12 @@ import Script from 'next/script';
 
 export default function Home() {
   return (
+    <>
     <div className="container mx-auto">
-    <div className='container h-64 mx-auto flex justify-center items-end *bg-red-500'>
-      <ul className='flex'>
+    <nav className='flex justify-center  sm:justify-end'>
+      <ul className='flex mt-4 fixed bg-red-900/50'>
         <li className='mr-8'>
-          <Link href='/about'>
+          <Link href='/'>
             <a className='menu-link' id='aboutLink'>About</a>
           </Link>
         </li>
@@ -22,16 +23,16 @@ export default function Home() {
           </Link>
         </li>
       </ul>
+    </nav>
+    
 
-    </div>
-
-      <section className="container border-2 border-red-500 h-96 flex justify-center items-center mt-32 mb-4 text-white" id='about'>
+      <section className="container border-2 border-red-500 h-screen flex justify-center items-center mt-32 mb-4 text-white" id='about'>
         <span>This is the About section</span>
       </section >
-      <section className="container border-2 border-blue-800 h-96 flex justify-center items-center mb-4 text-white" id='portfolio'>
+      <section className="container border-2 border-blue-800 h-screen flex justify-center items-center mb-4 text-white" id='portfolio'>
         <span>This is the Portfolio section</span>
       </section >
-      <section className="container border-2 border-green-800 h-96 flex justify-center items-center text-white" id='contact'>
+      <section className="container border-2 border-green-800 h-screen flex justify-center items-center text-white" id='contact'>
         <span>This is the contact section</span>
       </section >
 
@@ -41,7 +42,8 @@ export default function Home() {
         </Link>
       </section>
 
-      <Script id='script' src='/js/script.js'></Script>
+      <Script id='script' src='/js/script.js' strategy='afterInteractive'></Script>
     </div>
+    </>
   )
 }
