@@ -4,14 +4,14 @@ import Script from 'next/script';
 export default function Home() {
   return (
     <>
-    <nav className='flex justify-center sm:justify-end bg-white/30 fixed top-0 right-0 w-full'>
-      <ul className='flex'>
-        <li className='mr-8'>
+    <nav className='flex justify-center sm:justify-end bg-white/30 sm:bg-white/0 sticky top-0 right-0 w-full'>
+      <ul className='flex mt-4 sm:mr-8 border-b-2'>
+        <li className='mr-4'>
           <Link href='/'>
             <a className='menu-link' id='aboutLink'>About</a>
           </Link>
         </li>
-        <li className='mr-8'>
+        <li className='mr-4'>
           <Link href='/'>
             <a className='menu-link' id='portfolioLink'>Portfolio</a>
           </Link>
