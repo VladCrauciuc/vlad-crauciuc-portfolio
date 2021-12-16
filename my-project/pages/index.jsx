@@ -4,9 +4,8 @@ import Script from 'next/script';
 export default function Home() {
   return (
     <>
-    <div className="container mx-auto">
-    <nav className='flex justify-center  sm:justify-end'>
-      <ul className='flex mt-4 fixed bg-red-900/50'>
+    <nav className='flex justify-center sm:justify-end bg-white/30 fixed top-0 right-0 w-full'>
+      <ul className='flex'>
         <li className='mr-8'>
           <Link href='/'>
             <a className='menu-link' id='aboutLink'>About</a>
@@ -24,6 +23,7 @@ export default function Home() {
         </li>
       </ul>
     </nav>
+    <div className="container mx-auto">
     
 
       <section className="container border-2 border-red-500 h-screen flex justify-center items-center mt-32 mb-4 text-white" id='about'>
