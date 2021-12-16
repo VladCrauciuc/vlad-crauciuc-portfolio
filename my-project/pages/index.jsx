@@ -2,21 +2,21 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className='container bg-slate-500 h-96 mx-auto'>
+    <div className='container h-64 mx-auto flex justify-center items-end *bg-red-500'>
       <ul className='flex'>
-        <li className='mt-3 mx-3'>
+        <li className='mr-8'>
           <Link href='about'>
-            <a className='py-2 px-4 bg-sky-500 hover:bg-sky-600 text-white'>About</a>
+            <a className='py-2 px-8 border-b-2 border-sky-800 hover:bg-sky-800 text-white block'>About</a>
           </Link>
         </li>
-        <li className='mt-3 mr-3'>
+        <li className='mr-8'>
           <Link href='about'>
-            <a className='py-2 px-4 bg-sky-500 hover:bg-sky-600 text-white'>Portfolio</a>
+            <a className='py-2 px-8 border-b-2 border-sky-800 hover:bg-sky-800 text-white block'>Portfolio</a>
           </Link>
         </li>
-        <li className='mt-3'>
+        <li>
           <Link href='about'>
-            <a className='py-2 px-4 bg-sky-500 hover:bg-sky-600 text-white'>Contact</a>
+            <a className='py-2 px-8 border-b-2 border-sky-800 hover:bg-sky-800 text-white block'>Contact</a>
           </Link>
         </li>
       </ul>
