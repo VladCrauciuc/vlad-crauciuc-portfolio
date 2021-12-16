@@ -25,17 +25,17 @@ export default function Home() {
 
     </div>
 
-      <section className="container bg-red-500 h-96 flex justify-center items-center" id='about'>
+      <section className="container border-2 border-red-500 h-96 flex justify-center items-center mt-32 mb-4 text-white" id='about'>
         <span>This is the About section</span>
       </section >
-      <section className="container bg-blue-800 h-96 flex justify-center items-center" id='portfolio'>
+      <section className="container border-2 border-blue-800 h-96 flex justify-center items-center mb-4 text-white" id='portfolio'>
         <span>This is the Portfolio section</span>
       </section >
-      <section className="container bg-green-800 h-96 flex justify-center items-center" id='contact'>
+      <section className="container border-2 border-green-800 h-96 flex justify-center items-center text-white" id='contact'>
         <span>This is the contact section</span>
       </section >
 
-      <section className='bg-slate-600 flex justify-center items-center text-white mb-8'> 
+      <section className='bg-slate-700 flex justify-center items-center text-white mb-8'> 
         <Link href='/'>
           <a id='back2Top' className='py-2'>Back to top</a>
         </Link>
