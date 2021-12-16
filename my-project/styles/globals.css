@@ -11,5 +11,5 @@ html {
 }
 
 .menu-link {
-    @apply py-2 px-8 border-b-2 border-orange-400 hover:bg-orange-400/50 text-white block;
+    @apply py-2 px-4 border-b-2 border-orange-400 hover:bg-orange-400/50 text-white block;
 }
