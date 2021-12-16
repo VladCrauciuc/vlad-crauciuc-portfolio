@@ -4,7 +4,7 @@ import Script from 'next/script';
 export default function Home() {
   return (
     <>
-    <nav className='flex justify-center sm:justify-end bg-white/30 sm:bg-white/0 sticky top-0 right-0 w-full'>
+    <nav className='flex justify-center sm:justify-end bg-white/30 sm:bg-white/0 landscape:bg-white/0 sticky top-0 right-0 w-full'>
       <ul className='flex mt-4 sm:mr-8 border-b-2'>
         <li className='mr-4'>
           <Link href='/'>
