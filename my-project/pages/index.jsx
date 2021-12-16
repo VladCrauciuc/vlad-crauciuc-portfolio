@@ -4,7 +4,7 @@ import Script from 'next/script';
 export default function Home() {
   return (
     <>
-    <nav className='flex justify-center sm:justify-end bg-white/10 sm:bg-white/0 landscape:bg-white/0 sticky top-0 w-full'>
+    <nav className='flex justify-center sm:justify-end bg-white/10 sm:bg-white/0 sticky top-0 w-full'>
       <ul className='flex mt-4 sm:mr-8 border-b-2'>
         <li className='mr-4'>
           <Link href='/'>
@@ -36,11 +36,9 @@ export default function Home() {
         <span>This is the contact section</span>
       </section >
 
-      <section className='bg-slate-700 flex justify-center items-center text-white mb-8'> 
         <Link href='/'>
-          <a id='back2Top' className='py-2'>Back to top</a>
+          <a id='back2Top' className='py-2 px-4 bg-white/10 text-white fixed bottom-0 right-0'>Back to top</a>
         </Link>
-      </section>
 
       <Script id='script' src='/js/script.js' strategy='afterInteractive'></Script>
     </div>
