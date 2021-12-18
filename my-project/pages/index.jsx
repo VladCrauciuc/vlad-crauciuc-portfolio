@@ -51,42 +51,119 @@ export default function Home() {
 
         {/* ---about */}
         <section
-          className="container *border-2 border-red-500 pt-20 flex justify-center items-center mb-4 text-white"
+          className="pt-20 flex justify-center items-center mb-16 text-white"
           id="about"
         >
           <div className="flex flex-col items-center xl:justify-center text-center xl:text-left xl:flex-row text-lg">
             {/* picture */}
             <div className="picture-container bg-[url('/images/my-image.jpg')] bg-contain mr-0 xl:mr-8 mb-8 xl:mb-0"></div>
             {/* about text */}
-            <section className="flex flex-col *bg-red-500 w-11/12 xl:w-3/5">
+            <section className="flex flex-col w-11/12 xl:w-3/5">
               <span className="mb-8">
                 That&apos;s me, in all my sideview glory. I&apos;m Vlad, 31
                 years old, from Bucharest, Romania.
               </span>
-              <span>
+              <span className="mb-8">
                 I&apos;m a graphic designer with almost 10 years of experience,
                 and recently added web development to my set of skills. When not
                 designing silly things or learning, I engage in miniature
                 painting... which is also a kind of design (food for thought).
               </span>
+              <section className="flex flex-col">
+                <span className="mb-8">
+                  As for software and technologies, these are the ones I
+                  currently use:
+                </span>
+                <div className="flex justify-around gap-8 xl:justify-between flex-wrap">
+                  <div className="w-16 h-16">
+                    <Image
+                      alt="Adobe PHOTOSHOP"
+                      src="/images/photoshop-logo.png"
+                      width={1}
+                      height={1}
+                      layout="responsive"
+                      objectFit="contain"
+                    />
+                  </div>
+                  <div className="w-16 h-16">
+                    <Image
+                      alt="Adobe Illustrator"
+                      src="/images/illustrator-logo.png"
+                      width={1}
+                      height={1}
+                      layout="responsive"
+                      objectFit="contain"
+                    />
+                  </div>
+                  <div className="w-16 h-16">
+                    <Image
+                      alt="HTML5"
+                      src="/images/html5-logo.png"
+                      width={1}
+                      height={1}
+                      layout="responsive"
+                      objectFit="contain"
+                    />
+                  </div>
+                  <div className="w-16 h-16">
+                    <Image
+                      alt="CSS3"
+                      src="/images/css3-logo.png"
+                      width={1}
+                      height={1}
+                      layout="responsive"
+                      objectFit="contain"
+                    />
+                  </div>
+                  <div className="w-16 h-16">
+                    <Image
+                      alt="SASS"
+                      src="/images/sass-logo.png"
+                      width={1}
+                      height={1}
+                      layout="responsive"
+                      objectFit="contain"
+                    />
+                  </div>
+                  <div className="w-16 h-16">
+                    <Image
+                      alt="Javascript"
+                      src="/images/javascript-logo.png"
+                      width={1}
+                      height={1}
+                      layout="responsive"
+                      objectFit="contain"
+                    />
+                  </div>
+                  <div className="w-16 h-16">
+                    <Image
+                      alt="NextJS"
+                      src="/images/nextjs-logo.png"
+                      width={1}
+                      height={1}
+                      layout="responsive"
+                      objectFit="contain"
+                    />
+                  </div>
+                  <div className="w-16 h-16">
+                    <Image
+                      alt="Github"
+                      src="/images/github-logo.png"
+                      width={1}
+                      height={1}
+                      layout="responsive"
+                      objectFit="contain"
+                    />
+                  </div>
+                </div>
+              </section>
             </section>
           </div>
-
-          {/* <div className="w-16 h-16 ml-6 mr-6">
-            <Image
-              alt="HTML5"
-              src="/images/html5-logo.png"
-              width={1}
-              height={1}
-              layout="responsive"
-              objectFit="contain"
-            />
-          </div> */}
         </section>
 
         {/* ---portfolio */}
         <section
-          className="container border-2 border-blue-800 h-screen flex justify-center items-center mb-4 text-white"
+          className="border-2 border-blue-800 h-screen flex justify-center items-center mb-4 text-white"
           id="portfolio"
         >
           <span>This is the Portfolio section</span>
@@ -94,7 +171,7 @@ export default function Home() {
 
         {/* contact */}
         <section
-          className="container border-2 border-green-800 h-screen flex justify-center items-center text-white"
+          className="border-2 border-green-800 h-screen flex justify-center items-center text-white"
           id="contact"
         >
           <span>This is the contact section</span>

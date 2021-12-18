@@ -15,7 +15,7 @@ html {
 }
 
 .picture-container {
-  @apply w-40 h-40 sm:w-64 sm:h-64 bg-red-500 rounded-full;
+  @apply w-40 h-40 sm:w-64 sm:h-64 rounded-full;
 }
 
 /* --- for later implementation --- */
