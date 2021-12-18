@@ -74,7 +74,7 @@ export default function Home() {
                   As for software and technologies, these are the ones I
                   currently use:
                 </span>
-                <div className="flex justify-around gap-8 xl:justify-between flex-wrap">
+                <div className="flex justify-between gap-4 flex-wrap">
                   <div className="w-16 h-16">
                     <Image
                       alt="Adobe PHOTOSHOP"
