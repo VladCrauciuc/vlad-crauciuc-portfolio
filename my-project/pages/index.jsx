@@ -163,10 +163,26 @@ export default function Home() {
 
         {/* ---portfolio */}
         <section
-          className="border-2 border-blue-800 h-screen flex justify-center items-center mb-4 text-white"
+          className="border-2 border-blue-800 flex flex-col justify-center items-center mb-16 text-white"
           id="portfolio"
         >
-          <span>This is the Portfolio section</span>
+          <span className="pt-20 text-5xl mb-8">Portfolio</span>
+          <section className="flex flex-col md:flex-row md:flex-wrap justify-center gap-8">
+            <div className="w-80 h-80 rounded-lg relative bg-white bg-[url('/images/bootstrap-rng.png')] bg-cover bg-center">
+              <div className="opacity-0 hover:opacity-90 bg-slate-900 absolute inset-0 duration-200 flex flex-col items-center justify-between">
+                <span className="text-xl mt-8">Random Number Generator</span>
+                <Link href="https://bootstrap-rng.netlify.app/">
+                  <a
+                    className="mb-8 py-2 px-4 text-xl font-semibold text-slate-900 bg-white"
+                    target={'_blank'}
+                    rel="noreferrer"
+                  >
+                    Go to project
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </section>
         </section>
 
         {/* contact */}
