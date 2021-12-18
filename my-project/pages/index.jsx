@@ -43,7 +43,7 @@ export default function Home() {
             My name is <span className="font-semibold">Vlad</span>.
           </span>
           <span className="text-white text-5xl font-light mt-4 *bg-orange-400">
-            I'm a graphic designer and web developer.
+            I&apos;m a graphic designer and web developer.
           </span>
         </section>
 
