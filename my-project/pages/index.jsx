@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <>
-      <nav className="flex justify-center sm:justify-end bg-white/10 sm:bg-white/0 sticky top-0 w-full">
+      <nav className="flex justify-center sm:justify-end bg-white/10 sm:bg-white/0 sticky top-0 w-full z-50">
         <ul className="flex mt-4 sm:mr-8 border-b-2">
           <li className="mr-4">
             <Link href="/">
