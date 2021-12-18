@@ -51,7 +51,7 @@ export default function Home() {
 
         {/* ---about */}
         <section
-          className="container border-2 border-red-500 pt-16 flex justify-center items-center mb-4 text-white"
+          className="container border-2 border-red-500 pt-20 flex justify-center items-center mb-4 text-white"
           id="about"
         >
           <div className="picture-container bg-[url('/images/my-image.jpg')] bg-contain"></div>

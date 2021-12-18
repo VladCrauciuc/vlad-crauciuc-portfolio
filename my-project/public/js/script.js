@@ -11,7 +11,7 @@ const contact = document.getElementById('contact');
 
 aboutLink.addEventListener('click', (e) => {
   e.preventDefault();
-  about.scrollIntoView({ block: 'center' });
+  about.scrollIntoView({ block: 'start' });
   console.log('Scrolled to About');
 });
 portfolioLink.addEventListener('click', (e) => {
