@@ -15,10 +15,11 @@ html {
 }
 
 .picture-container {
-  @apply w-64 h-64 bg-red-500 rounded-full relative;
+  @apply w-40 h-40 sm:w-64 sm:h-64 bg-red-500 rounded-full relative;
 }
 
-.picture-container::before {
+/* --- for later implementation --- */
+/* .picture-container::before {
   content: '';
   position: absolute;
   width: 8em;
@@ -30,7 +31,7 @@ html {
   z-index: -1;
 }
 
-.picture-container:hover::before {
+.picture-container:hover::before, .picture-container:active::before {
   content: '';
   position: absolute;
   width: 17em;
@@ -38,14 +39,4 @@ html {
   border-radius: 50%;
   transform: translate(-0.5em, -0.5em);
   box-shadow: 0px 0px 0px 0.5em rgba(255, 255, 255, 1);
-}
-
-.picture-container:focus::before {
-  content: '';
-  position: absolute;
-  width: 17em;
-  height: 17em;
-  border-radius: 50%;
-  transform: translate(-0.5em, -0.5em);
-  box-shadow: 0px 0px 0px 0.5em rgba(255, 255, 255, 1);
-}
+} */
