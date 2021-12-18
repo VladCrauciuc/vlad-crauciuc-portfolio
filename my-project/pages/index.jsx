@@ -33,16 +33,16 @@ export default function Home() {
 
       <div className="container mx-auto">
         <section
-          className="my-8 sm:my-16 px-5 sm:px-0 flex flex-col justify-center items-center text-center *bg-sky-500 gap-4"
+          className="my-4 sm:my-16 px-5 sm:px-0 flex flex-col justify-center items-center text-center *bg-sky-500 gap-4"
           id="intro"
         >
-          <span className="text-white text-7xl sm:text-8xl font-light *bg-orange-400">
+          <span className="text-white text-6xl sm:text-8xl font-light *bg-orange-400">
             Hello there.
           </span>
-          <span className="text-white text-5xl sm:text-8xl font-light *bg-orange-400">
+          <span className="text-white text-4xl sm:text-8xl font-light *bg-orange-400">
             My name is <span className="font-semibold">Vlad</span>.
           </span>
-          <span className="text-white text-5xl font-light mt-4 *bg-orange-400">
+          <span className="text-white text-4xl font-light mt-4 *bg-orange-400">
             I&apos;m a graphic designer and web developer.
           </span>
         </section>
