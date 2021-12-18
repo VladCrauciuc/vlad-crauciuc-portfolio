@@ -74,6 +74,7 @@ export default function Home() {
                   As for software and technologies, these are the ones I
                   currently use:
                 </span>
+                {/* software and tech */}
                 <div className="flex justify-between gap-4 flex-wrap">
                   <div className="w-16 h-16">
                     <Image
@@ -168,9 +169,14 @@ export default function Home() {
         >
           <span className="pt-20 pb-4 text-5xl mb-8 border-b-2">Portfolio</span>
           <section className="flex flex-col md:flex-row md:flex-wrap justify-center gap-8">
+            {/* project */}
             <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-lg relative bg-white bg-[url('/images/bootstrap-rng.png')] bg-cover bg-center text-center">
               <div className="opacity-0 hover:opacity-90 bg-slate-900 absolute inset-0 duration-200 flex flex-col items-center justify-between">
                 <span className="text-2xl mt-8">Random Number Generator</span>
+                <ul className="opacity-50">
+                  <li>Made with:</li>
+                  <li>Bootstrap</li>
+                </ul>
                 <Link href="https://bootstrap-rng.netlify.app/">
                   <a
                     className="mb-8 py-2 px-4 text-xl font-semibold text-slate-900 bg-white"
@@ -182,9 +188,14 @@ export default function Home() {
                 </Link>
               </div>
             </div>
+            {/* project */}
             <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-lg relative bg-white bg-[url('/images/bootstrap-rtc.png')] bg-cover bg-center text-center">
               <div className="opacity-0 hover:opacity-90 bg-slate-900 absolute inset-0 duration-200 flex flex-col items-center justify-between">
                 <span className="text-2xl mt-8">Moody Real Time Display</span>
+                <ul className="opacity-50">
+                  <li>Made with:</li>
+                  <li>Bootstrap</li>
+                </ul>
                 <Link href="https://bootstrap-rtc.netlify.app//">
                   <a
                     className="mb-8 py-2 px-4 text-xl font-semibold text-slate-900 bg-white"
