@@ -16,12 +16,12 @@ aboutLink.addEventListener('click', (e) => {
 });
 portfolioLink.addEventListener('click', (e) => {
   e.preventDefault();
-  portfolio.scrollIntoView({ block: 'center' });
+  portfolio.scrollIntoView({ block: 'start' });
   console.log('Scrolled to Portfolio');
 });
 contactLink.addEventListener('click', (e) => {
   e.preventDefault();
-  contact.scrollIntoView({ block: 'center' });
+  contact.scrollIntoView({ block: 'start' });
   console.log('Scrolled to Contact');
 });
 back2Top.addEventListener('click', (e) => {

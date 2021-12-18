@@ -35,26 +35,41 @@ export default function Home() {
       <div className="container mx-auto">
         {/* ---intro */}
         <section
-          className="my-10 sm:my-16 px-5 sm:px-0 flex flex-col justify-center items-center text-center *bg-sky-500 gap-4"
+          className="my-10 sm:my-16 px-5 sm:px-0 flex flex-col justify-center items-center text-center gap-4"
           id="intro"
         >
-          <span className="text-white text-6xl sm:text-8xl font-light *bg-orange-400">
+          <span className="text-white text-6xl sm:text-8xl font-light ">
             Hello there.
           </span>
-          <span className="text-white text-4xl sm:text-8xl font-light *bg-orange-400">
+          <span className="text-white text-4xl sm:text-8xl font-light">
             My name is <span className="font-semibold">Vlad</span>.
           </span>
-          <span className="text-white text-4xl font-light mt-4 *bg-orange-400">
+          <span className="text-white text-4xl font-light mt-4">
             I&apos;m a graphic designer and web developer.
           </span>
         </section>
 
         {/* ---about */}
         <section
-          className="container border-2 border-red-500 pt-20 flex justify-center items-center mb-4 text-white"
+          className="container *border-2 border-red-500 pt-20 flex justify-center items-center mb-4 text-white"
           id="about"
         >
-          <div className="picture-container bg-[url('/images/my-image.jpg')] bg-contain"></div>
+          <div className="flex flex-col items-center xl:justify-center text-center xl:text-left xl:flex-row text-lg">
+            {/* picture */}
+            <div className="picture-container bg-[url('/images/my-image.jpg')] bg-contain mr-0 xl:mr-8 mb-8 xl:mb-0"></div>
+            {/* about text */}
+            <section className="flex flex-col *bg-red-500 w-3/4 xl:w-3/5">
+              <span className="mb-8">
+                That&apos;s me, in all my sideview glory. I&apos;m Vlad, 31
+                years old, from Bucharest, Romania.
+              </span>
+              <span>
+                I&apos;m a graphic designer with almost 10 years of experience,
+                and recently added web development to my set of skills. Lorem
+                ipsum dolor sit amet
+              </span>
+            </section>
+          </div>
 
           {/* <div className="w-16 h-16 ml-6 mr-6">
             <Image
