@@ -56,7 +56,7 @@ export default function Home() {
         >
           <div className="picture-container"></div>
 
-          <div className="w-16 h-16 ml-6 mr-6">
+          {/* <div className="w-16 h-16 ml-6 mr-6">
             <Image
               alt="HTML5"
               src="/images/html5-logo.png"
@@ -65,77 +65,7 @@ export default function Home() {
               layout="responsive"
               objectFit="contain"
             />
-          </div>
-          <div className="w-16 h-16 mr-6">
-            <Image
-              alt="CSS3"
-              src="/images/css3-logo.png"
-              width={1}
-              height={1}
-              layout="responsive"
-              objectFit="contain"
-            />
-          </div>
-          <div className="w-16 h-16 mr-6">
-            <Image
-              alt="Javascript"
-              src="/images/javascript-logo.png"
-              width={1}
-              height={1}
-              layout="responsive"
-              objectFit="contain"
-            />
-          </div>
-          <div className="w-16 h-16 mr-6">
-            <Image
-              alt="Javascript"
-              src="/images/nextjs-logo.png"
-              width={1}
-              height={1}
-              layout="responsive"
-              objectFit="contain"
-            />
-          </div>
-          <div className="w-16 h-16 mr-6">
-            <Image
-              alt="Javascript"
-              src="/images/photoshop-logo.png"
-              width={1}
-              height={1}
-              layout="responsive"
-              objectFit="contain"
-            />
-          </div>
-          <div className="w-16 h-16 mr-6">
-            <Image
-              alt="Javascript"
-              src="/images/illustrator-logo.png"
-              width={1}
-              height={1}
-              layout="responsive"
-              objectFit="contain"
-            />
-          </div>
-          <div className="w-16 h-16 mr-6">
-            <Image
-              alt="Javascript"
-              src="/images/sass-logo.png"
-              width={1}
-              height={1}
-              layout="responsive"
-              objectFit="contain"
-            />
-          </div>
-          <div className="w-16 h-16 mr-6">
-            <Image
-              alt="Javascript"
-              src="/images/github-logo.png"
-              width={1}
-              height={1}
-              layout="responsive"
-              objectFit="contain"
-            />
-          </div>
+          </div> */}
         </section>
 
         {/* ---portfolio */}
