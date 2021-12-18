@@ -33,7 +33,7 @@ export default function Home() {
 
       <div className="container mx-auto">
         <section
-          className="my-16 px-5 sm:px-0 flex flex-col justify-center items-center text-center *bg-sky-500 gap-4"
+          className="my-8 sm:my-16 px-5 sm:px-0 flex flex-col justify-center items-center text-center *bg-sky-500 gap-4"
           id="intro"
         >
           <span className="text-white text-7xl sm:text-8xl font-light *bg-orange-400">
