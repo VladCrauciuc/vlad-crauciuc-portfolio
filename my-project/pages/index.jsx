@@ -58,15 +58,16 @@ export default function Home() {
             {/* picture */}
             <div className="picture-container bg-[url('/images/my-image.jpg')] bg-contain mr-0 xl:mr-8 mb-8 xl:mb-0"></div>
             {/* about text */}
-            <section className="flex flex-col *bg-red-500 w-3/4 xl:w-3/5">
+            <section className="flex flex-col *bg-red-500 w-11/12 xl:w-3/5">
               <span className="mb-8">
                 That&apos;s me, in all my sideview glory. I&apos;m Vlad, 31
                 years old, from Bucharest, Romania.
               </span>
               <span>
                 I&apos;m a graphic designer with almost 10 years of experience,
-                and recently added web development to my set of skills. Lorem
-                ipsum dolor sit amet
+                and recently added web development to my set of skills. When not
+                designing silly things or learning, I engage in miniature
+                painting... which is also a kind of design (food for thought).
               </span>
             </section>
           </div>
