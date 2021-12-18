@@ -54,7 +54,7 @@ export default function Home() {
           className="container border-2 border-red-500 h-screen flex justify-center items-center mb-4 text-white"
           id="about"
         >
-          <div className="picture-container"></div>
+          <div className="picture-container bg-[url('/images/my-image.jpg')] bg-contain"></div>
 
           {/* <div className="w-16 h-16 ml-6 mr-6">
             <Image
