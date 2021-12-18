@@ -31,7 +31,9 @@ export default function Home() {
         </ul>
       </nav>
 
+      {/* ---container */}
       <div className="container mx-auto">
+        {/* ---intro */}
         <section
           className="my-10 sm:my-16 px-5 sm:px-0 flex flex-col justify-center items-center text-center *bg-sky-500 gap-4"
           id="intro"
@@ -47,10 +49,13 @@ export default function Home() {
           </span>
         </section>
 
+        {/* ---about */}
         <section
           className="container border-2 border-red-500 h-screen flex justify-center items-center mb-4 text-white"
           id="about"
         >
+          <div className="picture-container"></div>
+
           <div className="w-16 h-16 ml-6 mr-6">
             <Image
               alt="HTML5"
@@ -132,12 +137,16 @@ export default function Home() {
             />
           </div>
         </section>
+
+        {/* ---portfolio */}
         <section
           className="container border-2 border-blue-800 h-screen flex justify-center items-center mb-4 text-white"
           id="portfolio"
         >
           <span>This is the Portfolio section</span>
         </section>
+
+        {/* contact */}
         <section
           className="container border-2 border-green-800 h-screen flex justify-center items-center text-white"
           id="contact"
@@ -145,6 +154,7 @@ export default function Home() {
           <span>This is the contact section</span>
         </section>
 
+        {/* back2Top */}
         <Link href="/">
           <a
             id="back2Top"
