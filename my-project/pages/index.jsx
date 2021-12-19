@@ -224,7 +224,8 @@ export default function Home() {
           <span className="pt-20 pb-4 text-5xl mb-8 border-b-2">Contact</span>
 
           <span className="mb-8 text-lg w-11/12">
-            If you're feeling social, you can find me on one of the following:
+            If you&apos;re feeling social, you can find me on one of the
+            following:
           </span>
           <section className="flex gap-8 mb-8">
             <Link href="https://www.facebook.com/goji.robe/">
@@ -266,7 +267,7 @@ export default function Home() {
           </section>
 
           <span className="mb-8 text-lg w-11/12">
-            Or drop a mail at{' '}
+            Or drop a mail at
             <span className="font-bold">vlad.crauciuc1@gmail.com</span>
           </span>
 
