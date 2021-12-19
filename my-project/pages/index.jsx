@@ -267,7 +267,7 @@ export default function Home() {
           </section>
 
           <span className="mb-8 text-lg w-11/12">
-            Or drop a mail at
+            Or drop a mail at{' '}
             <span className="font-bold">vlad.crauciuc1@gmail.com</span>
           </span>
 
