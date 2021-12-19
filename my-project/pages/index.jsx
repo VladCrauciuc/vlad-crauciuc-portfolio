@@ -228,22 +228,38 @@ export default function Home() {
           </span>
           <section className="flex gap-8 mb-8">
             <Link href="https://www.facebook.com/goji.robe/">
-              <a className="hover:text-orange-500">
+              <a
+                className="hover:text-orange-500"
+                target={'_blank'}
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
               </a>
             </Link>
             <Link href="https://www.instagram.com/vlad_crauciuc/">
-              <a className="hover:text-orange-500">
+              <a
+                className="hover:text-orange-500"
+                target={'_blank'}
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon icon={faInstagram} size="2x" />
               </a>
             </Link>
             <Link href="https://www.linkedin.com/in/vlad-crauciuc-344874205">
-              <a className="hover:text-orange-500">
+              <a
+                className="hover:text-orange-500"
+                target={'_blank'}
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>
             </Link>
             <Link href="https://www.github.com/VladCrauciuc/">
-              <a className="hover:text-orange-500">
+              <a
+                className="hover:text-orange-500"
+                target={'_blank'}
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon icon={faGithub} size="2x" />
               </a>
             </Link>
