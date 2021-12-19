@@ -2,6 +2,12 @@ import Script from 'next/script';
 import Link from 'next/link';
 import Image from 'next/image';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+
 export default function Home() {
   return (
     <>
@@ -212,10 +218,45 @@ export default function Home() {
 
         {/* contact */}
         <section
-          className="border-2 border-green-800 h-screen flex justify-center items-center text-white"
+          className="flex flex-col justify-center items-center mb-10 text-white text-center"
           id="contact"
         >
-          <span>This is the contact section</span>
+          <span className="pt-20 pb-4 text-5xl mb-8 border-b-2">Contact</span>
+
+          <span className="mb-8 text-lg w-11/12">
+            If you're feeling social, you can find me on one of the following:
+          </span>
+          <section className="flex gap-8 mb-8">
+            <Link href="https://www.facebook.com/goji.robe/">
+              <a className="hover:text-orange-500">
+                <FontAwesomeIcon icon={faFacebook} size="2x" />
+              </a>
+            </Link>
+            <Link href="https://www.instagram.com/vlad_crauciuc/">
+              <a className="hover:text-orange-500">
+                <FontAwesomeIcon icon={faInstagram} size="2x" />
+              </a>
+            </Link>
+            <Link href="https://www.linkedin.com/in/vlad-crauciuc-344874205">
+              <a className="hover:text-orange-500">
+                <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              </a>
+            </Link>
+            <Link href="https://www.github.com/VladCrauciuc/">
+              <a className="hover:text-orange-500">
+                <FontAwesomeIcon icon={faGithub} size="2x" />
+              </a>
+            </Link>
+          </section>
+
+          <span className="mb-8 text-lg w-11/12">
+            Or drop a mail at{' '}
+            <span className="font-bold">vlad.crauciuc1@gmail.com</span>
+          </span>
+
+          <section className="text-sm opacity-50">
+            <span>&copy;2021 - v1.0 - Made with NextJS</span>
+          </section>
         </section>
 
         {/* back2Top */}
